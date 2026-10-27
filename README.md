@@ -1,2 +1,113 @@
-# my-portfolio
-My personal portfolio website built with HTML, CSS, and JavaScript.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#home" class="logo">Alex<span>.</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Alex Santos</span></h1>
+            <h2>Aspiring Web Developer</h2>
+            <p>
+                I create simple, creative, and responsive
+                websites using modern web technologies.
+            </p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+
+        <div class="profile">
+            <div class="profile-circle">AS</div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About <span>Me</span></h2>
+        <p>
+            I am a passionate learner interested in technology,
+            web design, and programming. I enjoy building websites
+            and learning new skills to improve my work.
+        </p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>My <span>Skills</span></h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Creating website structure and content.</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Designing layouts, colors, and animations.</p>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Adding interactive website features.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My <span>Projects</span></h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Personal Portfolio</h3>
+                <p>A website introducing myself and my skills.</p>
+                <a href="#home">View Project</a>
+            </div>
+
+            <div class="card">
+                <h3>Employee Calculator</h3>
+                <p>A simple application for calculating employee pay.</p>
+                <a href="#contact">Ask About This Project</a>
+            </div>
+
+            <div class="card">
+                <h3>Business Website</h3>
+                <p>A sample website for a small business.</p>
+                <a href="#contact">Ask About This Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact <span>Me</span></h2>
+        <p>Interested in working together? Send me a message.</p>
+
+        <a class="btn"
+           href="mailto:yourname@example.com?subject=Portfolio%20Inquiry">
+            Email Me
+        </a>
+    </section>
+
+    <footer>
+        <p>© <span id="year"></span> Alex Santos. All rights reserved.</p>
+        <button id="topBtn" type="button">Back to Top ↑</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
